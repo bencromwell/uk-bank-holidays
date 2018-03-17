@@ -1,0 +1,21 @@
+{
+    "name": "cromwell/uk-bank-holidays",
+    "description": "Parses UK bank holidays from gov.uk",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Cromwell",
+            "email": "manc39@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cromwell\\UKBankHolidays\\": "src/"
+        }
+    }
+}
